@@ -58,19 +58,23 @@ a:hover { text-decoration-thickness: .13em; }
 .home-hero .display { max-width: 11.8ch; font-size: clamp(3.2rem, 5.3vw, 5.15rem); }
 .home-hero .lede { max-width: 38rem; margin: 1.8rem 0 1.65rem; }
 .hero-copy { min-width: 0; padding-top: .5rem; }
+.role-cue { max-width: 38rem; margin: 0 0 1.35rem; padding-left: .85rem; border-left: 3px solid var(--accent); color: var(--muted); font-size: .95rem; }
+.role-cue a { font-weight: 750; }
 
 .product-spotlight { min-width: 0; overflow: hidden; border: 1px solid #d7bd87; border-radius: 24px; background: #fff8ea; color: #28231d; }
-.product-spotlight .spotlight-content { padding: clamp(1.3rem, 3vw, 2rem); }
-.product-spotlight figure { margin: 0; }
+.product-spotlight .spotlight-content { display: grid; grid-template-areas: "status" "art" "title" "purpose" "link"; justify-items: start; padding: clamp(1.3rem, 3vw, 2rem); }
+.product-spotlight .status { grid-area: status; }
+.product-spotlight figure { grid-area: art; width: 100%; margin: 0; }
 .product-spotlight img { width: min(100%, 420px); margin: .6rem auto .2rem; }
-.product-spotlight h2 { margin: .4rem 0 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2rem, 3vw, 2.7rem); font-weight: 400; line-height: 1.15; letter-spacing: -.045em; }
-.product-spotlight p { color: #51493f; }
+.product-spotlight h2 { grid-area: title; margin: .4rem 0 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2rem, 3vw, 2.7rem); font-weight: 400; line-height: 1.15; letter-spacing: -.045em; }
+.product-spotlight p { grid-area: purpose; color: #51493f; }
 .product-spotlight figcaption { margin-top: 1.4rem; color: #625a50; font-size: .75rem; }
 .status { display: inline-block; max-width: 100%; padding: .35rem .72rem; border: 1px solid; border-radius: 999px; font-size: .72rem; font-weight: 800; line-height: 1.4; letter-spacing: .02em; text-transform: uppercase; overflow-wrap: anywhere; }
 .status-qualification { border-color: #b67b36; background: #fffdf7; color: #71371f; }
 .status-concept { border-color: #d9ac9b; background: #fff0e8; color: var(--concept-ink); }
 .status-retired { border-color: #adb3c0; background: #ffffff; color: #404a58; }
 .product-link { display: inline-flex; min-height: 44px; align-items: center; color: #71371f; font-weight: 800; }
+.product-spotlight .product-link { grid-area: link; }
 
 .section-intro { margin: clamp(3.8rem, 7vw, 5.5rem) 0 1.7rem; }
 .section-intro h2, .portfolio-secondary h2 { margin: 0 0 .35rem; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2rem, 3vw, 2.65rem); font-weight: 400; line-height: 1.15; letter-spacing: -.04em; }
@@ -89,23 +93,17 @@ a:hover { text-decoration-thickness: .13em; }
 
 .portfolio-hero .display { max-width: 13ch; font-size: clamp(3rem, 5vw, 4.7rem); }
 .portfolio-hero .lede { max-width: 54rem; margin: 1.4rem 0 3rem; }
-.card-portfolio { display: grid; grid-template-columns: minmax(0, .72fr) minmax(0, 1fr); overflow: hidden; border: 1px solid #d7bd87; border-radius: 24px; background: #fff8ea; color: #28231d; }
-.card-portfolio figure { min-width: 0; margin: 0; padding: 1.7rem; display: flex; flex-direction: column; justify-content: center; background: #fffdf7; }
+.card-portfolio { display: grid; grid-template-columns: minmax(0, .72fr) minmax(0, 1fr); grid-template-areas: "art body"; overflow: hidden; border: 1px solid #d7bd87; border-radius: 24px; background: #fff8ea; color: #28231d; }
+.card-portfolio figure { grid-area: art; min-width: 0; margin: 0; padding: 1.7rem; display: flex; flex-direction: column; justify-content: center; background: #fffdf7; }
 .card-portfolio img { max-height: 330px; width: auto; margin: auto; }
 .card-portfolio figcaption { margin-top: 1rem; color: #625a50; font-size: .75rem; }
-.card-portfolio .card-body { min-width: 0; padding: clamp(1.5rem, 4vw, 3.2rem); align-self: center; }
+.card-portfolio .card-body { grid-area: body; min-width: 0; padding: clamp(1.5rem, 4vw, 3.2rem); align-self: center; }
 .card-portfolio h2 { margin: 1.2rem 0 .8rem; font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(2.8rem, 4vw, 4rem); letter-spacing: -.055em; line-height: 1.05; }
 .card-portfolio p { max-width: 54ch; color: #51493f; }
 .card-portfolio .product-link { margin-top: .5rem; }
 .portfolio-secondary { margin-top: clamp(3.5rem, 6vw, 5rem); }
 .portfolio-secondary h2 { margin-bottom: 1.5rem; }
-.record-number { color: var(--muted); font-size: .74rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
-.record-visual { display: grid; min-height: 120px; margin: -1px -1px 1rem; padding: 1.3rem; place-items: center; border-radius: 18px 18px 0 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.4rem, 3vw, 2.5rem); }
-.project-card-with-visual { padding-top: 0; }
-.project-card-with-visual .card-inner { padding-top: .3rem; }
-.project-card-with-visual h3 { margin-top: .5rem; }
-.project-card-concept .record-visual { background: #f4d8ca; color: #542518; }
-.project-card-archive .record-visual { background: #dde0e9; color: #404a58; }
+.portfolio-secondary .project-card-concept { background: var(--surface); border-color: var(--line); }
 
 .site-footer { max-width: 1280px; margin: auto; padding: 1.8rem clamp(1rem, 5vw, 4rem) 2.8rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .79rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .7rem 1.5rem; }
 .site-footer a { color: inherit; }
@@ -117,9 +115,13 @@ a:hover { text-decoration-thickness: .13em; }
   .process-note p { margin: .5rem 0; }
 }
 @media (max-width: 700px) {
-  .card-portfolio { grid-template-columns: 1fr; }
-  .card-portfolio figure { min-height: 230px; }
-  .card-portfolio img { max-height: 245px; }
+  .product-spotlight .spotlight-content { grid-template-areas: "status" "title" "purpose" "link" "art"; }
+  .product-spotlight figure { margin-top: .5rem; }
+  .product-spotlight img { max-height: 155px; }
+  .product-spotlight figcaption { margin-top: .4rem; }
+  .card-portfolio { grid-template-columns: 1fr; grid-template-areas: "body" "art"; }
+  .card-portfolio figure { padding: .75rem 1.5rem 1.25rem; }
+  .card-portfolio img { max-height: 170px; }
 }
 @media (max-width: 560px) {
   .brand-role { display: none; }
@@ -128,7 +130,6 @@ a:hover { text-decoration-thickness: .13em; }
   .home-hero .display { font-size: clamp(2.6rem, 11vw, 3.4rem); }
   .project-grid { grid-template-columns: 1fr; }
   .project-card { padding: 1.2rem; }
-  .record-visual { margin: -1.2rem -1.2rem 1rem; }
 }
 @media (max-width: 360px) {
   .nav-inner { align-items: flex-start; }
@@ -151,8 +152,6 @@ a:hover { text-decoration-thickness: .13em; }
     --concept-line: #8c6170;
     --concept-ink: #71371f;
   }
-  .project-card-concept .record-visual { color: #542518; }
-  .project-card-archive .record-visual { background: #31405a; color: #f7f8fc; }
   .status-retired { background: #f7f8fc; color: #404a58; }
   .project-card-archive .status-retired { border-color: #adb3c0; }
 }
