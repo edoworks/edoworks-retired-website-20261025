@@ -43,6 +43,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://edoworks.com/apps/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://edoworks.com/trials/</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
