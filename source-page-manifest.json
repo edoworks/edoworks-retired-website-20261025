@@ -8,15 +8,21 @@
     },
     {
       "path": "/blog/rung-0-3-1-release.html",
-      "source_page_id": "blog-post"
+      "source_page_id": "retired-product",
+      "indexable": false,
+      "content_marker": "deprecated"
     },
     {
       "path": "/blog/rung-0-3-2-release.html",
-      "source_page_id": "blog-post"
+      "source_page_id": "retired-product",
+      "indexable": false,
+      "content_marker": "deprecated"
     },
     {
       "path": "/blog/mews-and-woofs-concept-experiment.html",
-      "source_page_id": "blog-post"
+      "source_page_id": "retired-product",
+      "indexable": false,
+      "content_marker": "deprecated"
     },
     {
       "path": "/blog/",
@@ -40,27 +46,39 @@
     },
     {
       "path": "/mews-and-woofs/",
-      "source_page_id": "mews-and-woofs-experiment"
+      "source_page_id": "retired-product",
+      "indexable": false,
+      "content_marker": "deprecated"
     },
     {
       "path": "/rung/",
-      "source_page_id": "rung-project"
+      "source_page_id": "retired-product",
+      "indexable": false,
+      "content_marker": "deprecated"
     },
     {
       "path": "/nownest/",
-      "source_page_id": "nownest-qualification"
+      "source_page_id": "retired-product",
+      "indexable": false,
+      "content_marker": "deprecated"
     },
     {
       "path": "/nownest/support/",
-      "source_page_id": "nownest-support"
+      "source_page_id": "retired-product",
+      "indexable": false,
+      "content_marker": "deprecated"
     },
     {
       "path": "/nownest/privacy/",
-      "source_page_id": "nownest-privacy"
+      "source_page_id": "retired-product",
+      "indexable": false,
+      "content_marker": "deprecated"
     },
     {
       "path": "/nownest/terms/",
-      "source_page_id": "nownest-terms"
+      "source_page_id": "retired-product",
+      "indexable": false,
+      "content_marker": "deprecated"
     },
     {
       "path": "/privacy/",
