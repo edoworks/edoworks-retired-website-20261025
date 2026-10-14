@@ -31,6 +31,10 @@
       "source_page_id": "portfolio"
     },
     {
+      "path": "/apps/",
+      "source_page_id": "web-products"
+    },
+    {
       "path": "/trials/",
       "source_page_id": "product-trial-lab-experiment"
     },
