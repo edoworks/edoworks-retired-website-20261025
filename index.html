@@ -65,7 +65,7 @@
     .product-link { display:inline-flex; min-height:44px; align-items:center; margin-top:8px; padding:10px 16px; border-radius:10px; background:#d99324; color:#28231d; font-weight:800; text-decoration:none; }
     footer { max-width:1120px; margin:0 auto; padding:28px 24px 44px; border-top:1px solid var(--border); color:var(--muted); font-size:.82rem; display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; }
     @media (max-width:850px) { .kpis { grid-template-columns:repeat(2,1fr); } .kpi { border-bottom:1px solid var(--border); } .overview { grid-template-columns:1fr; } .proof { grid-template-columns:1fr; } .product-spotlight { grid-template-columns:1fr; } .product-art { min-height:240px; border-right:0; border-bottom:1px solid #d7bd87; } }
-    @media (max-width:620px) { .brand-meta { display:none; } .nav-inner { padding:0 16px; gap:12px; } .nav-links { gap:12px; } main { padding:44px 16px 56px; } .kpis { grid-template-columns:1fr; } .kpi { border-right:0; } .flow { grid-template-columns:1fr; } .flow li { min-height:auto; } .flow li::after { content:"↓"; right:12px; top:auto; bottom:-15px; } .flow li:last-child::after { content:"✓"; top:12px; bottom:auto; } }
+    @media (max-width:620px) { .brand-meta { display:none; } .nav-inner { padding:12px 16px; gap:10px; flex-wrap:wrap; } .nav-links { width:100%; margin-left:0; gap:14px; flex-wrap:wrap; } main { padding:44px 16px 56px; } .kpis { grid-template-columns:1fr; } .kpi { border-right:0; } .flow { grid-template-columns:1fr; } .flow li { min-height:auto; } .flow li::after { content:"↓"; right:12px; top:auto; bottom:-15px; } .flow li:last-child::after { content:"✓"; top:12px; bottom:auto; } }
   /*a11y-skip-link-css*/.skip-link{position:absolute;left:-9999px;top:1rem;z-index:9999;padding:.5rem 1rem;background:#fff;color:#1f2937;border:1px solid #7c3aed;border-radius:4px;font-weight:700;text-decoration:none;}.skip-link:focus{left:1rem;}
   /*a11y-reduced-motion*/@media (prefers-reduced-motion:reduce){*{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important;scroll-behavior:auto!important;}}
   /*a11y-focus-visible*/a:focus-visible,button:focus-visible,[tabindex]:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid #7c3aed;outline-offset:3px;border-radius:2px;}
@@ -90,7 +90,7 @@
   <nav aria-label="Site navigation">
     <div class="nav-inner">
       <a class="brand" href="/">Edoworks</a><span class="brand-meta">software factory</span>
-      <div class="nav-links"><a href="/blog/">Blog</a><a href="/portfolio/">Portfolio</a><a href="/nownest/">NowNest</a></div>
+      <div class="nav-links"><a href="/blog/">Blog</a><a href="/portfolio/">Portfolio</a><a href="/nownest/">NowNest</a><a href="/trials/">Try concepts</a></div>
     </div>
   </nav>
   <main id="main-content">
@@ -98,7 +98,7 @@
       <p class="eyebrow">Intent → verified software</p>
       <h1 id="hero-title">An evolving verified software factory.</h1>
       <p class="lede">Edoworks builds, verifies, and documents software maintained by its operators. Case studies describe the work; they do not establish product ownership or commercial proof.</p>
-      <div class="actions"><a class="button" href="/portfolio/">See case-study evidence</a></div>
+      <div class="actions"><a class="button" href="/portfolio/">See case-study evidence</a><a class="button secondary" href="/trials/">Try product concepts</a></div>
     </section>
 
     <section class="overview" aria-label="Delivery pipeline">

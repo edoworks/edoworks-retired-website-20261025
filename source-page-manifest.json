@@ -31,6 +31,10 @@
       "source_page_id": "portfolio"
     },
     {
+      "path": "/trials/",
+      "source_page_id": "product-trial-lab-experiment"
+    },
+    {
       "path": "/mews-and-woofs/",
       "source_page_id": "mews-and-woofs-experiment"
     },
