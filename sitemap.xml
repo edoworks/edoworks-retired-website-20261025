@@ -18,25 +18,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://edoworks.com/blog/rung-0-3-1-release.html</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://edoworks.com/blog/rung-0-3-2-release.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://edoworks.com/blog/mews-and-woofs-concept-experiment.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
+
+<url>
     <loc>https://edoworks.com/portfolio/</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -54,42 +37,9 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://edoworks.com/mews-and-woofs/</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://edoworks.com/rung/</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://edoworks.com/nownest/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://edoworks.com/nownest/support/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://edoworks.com/nownest/privacy/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://edoworks.com/nownest/terms/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
+
+
+
   <url>
     <loc>https://edoworks.com/privacy/</loc>
     <lastmod>2026-09-23</lastmod>
