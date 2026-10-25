@@ -5,9 +5,9 @@ website and product portfolio. This repository is being preserved in the
 Foculoom archives before GitHub Pages and the source repository are removed.
 The structure below describes the historical site.
 
-Public website for **Edoworks**.
+Former public website for **Edoworks**.
 
-- **Domain:** `edoworks.com` (live via GitHub Pages and Cloudflare DNS).
+- **Domain:** `edoworks.com` (historically served via GitHub Pages and Cloudflare DNS).
 - **Surfaces:** landing (`index.html`), blog (`blog/index.html`), portfolio
   (`portfolio/index.html`), Rung project page (`rung/index.html`), and the
   qualification-stage NowNest pages (`nownest/`).
