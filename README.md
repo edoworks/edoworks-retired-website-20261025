@@ -1,8 +1,13 @@
 # edoworks.github.io
 
-Public website for **Edoworks**.
+**Retirement in progress (2026-10-25).** The owner has ended the Edoworks
+website and product portfolio. This repository is being preserved in the
+Foculoom archives before GitHub Pages and the source repository are removed.
+The structure below describes the historical site.
 
-- **Domain:** `edoworks.com` (live via GitHub Pages and Cloudflare DNS).
+Former public website for **Edoworks**.
+
+- **Domain:** `edoworks.com` (historically served via GitHub Pages and Cloudflare DNS).
 - **Surfaces:** landing (`index.html`), blog (`blog/index.html`), portfolio
   (`portfolio/index.html`), Rung project page (`rung/index.html`), and the
   qualification-stage NowNest pages (`nownest/`).
